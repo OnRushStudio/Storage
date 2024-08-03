@@ -17,9 +17,7 @@ data: An object containing the initial data you want to store.
 Options
 You can configure how the data is stored using the options object. These options include:
 
-```
-javascript
-Copy code
+```javascript
 this.options = {
     key: key,                          // The key used for storage
     useLocalStorage: true,             // Whether to use local storage (default: true)
@@ -32,8 +30,7 @@ this.options = {
 ## Example Usage
 Initialization and Incrementing a Value
 
-```
-javascript
+```javascript
 // Initialize the Storage object for player data
 this.player = new Storage('Player', {
     level: 1,
@@ -50,8 +47,7 @@ console.log(this.player.level);
 ## Clearing Data
 The Storage object provides a clear function to remove the stored data.
 
-```
-javascript
+```javascript
 // Clear the player data from storage
 this.player.clear();
 ```
