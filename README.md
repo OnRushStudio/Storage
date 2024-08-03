@@ -2,6 +2,9 @@
 ## Overview
 The Storage library is designed to help developers save and manage game data using either the browser's local storage or cookies. This library simplifies the process of persisting game state, player data, and other variables across sessions.
 
+## Tutorial Video
+https://youtu.be/f4zbcp6Rbn0
+
 ## Initialization
 To initialize the Storage object, you need to provide a key and an options object.
 
