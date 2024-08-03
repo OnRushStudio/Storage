@@ -5,6 +5,9 @@ The Storage library is designed to help developers save and manage game data usi
 ## Tutorial Video
 https://youtu.be/f4zbcp6Rbn0
 
+## Demo
+https://playcanvas.com/project/1241745/overview/storage-for-games
+
 ## Initialization
 To initialize the Storage object, you need to provide a key and an options object.
 
