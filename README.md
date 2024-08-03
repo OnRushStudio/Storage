@@ -8,6 +8,23 @@ https://youtu.be/f4zbcp6Rbn0
 ## Demo
 https://playcanvas.com/project/1241745/overview/storage-for-games
 
+## Example Usage
+Initialization and Incrementing a Value
+
+```javascript
+// Initialize the Storage object for player data
+this.player = new Storage('Player', {
+    level: 1,
+    skins: []
+});
+
+// Increment the player's level
+this.player.level++;
+
+// Log the updated level
+console.log(this.player.level);
+```
+
 ## Initialization
 To initialize the Storage object, you need to provide a key and an options object.
 
@@ -29,25 +46,7 @@ this.options = {
     useLocalStorage: true,             // Whether to use local storage (default: true)
     useCookies: true,                  // Whether to use cookies (default: true)
     cookieExpirationDays: 365,         // The number of days before the cookie expires (default: 365)
-    ...options                         // Any additional options
 };
-```
-
-## Example Usage
-Initialization and Incrementing a Value
-
-```javascript
-// Initialize the Storage object for player data
-this.player = new Storage('Player', {
-    level: 1,
-    skins: []
-});
-
-// Increment the player's level
-this.player.level++;
-
-// Log the updated level
-console.log(this.player.level);
 ```
 
 ## Clearing Data
