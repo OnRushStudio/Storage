@@ -6,7 +6,6 @@ The Storage library is designed to help developers save and manage game data usi
 To initialize the Storage object, you need to provide a key and an options object.
 
 ```javascript
-Copy code
 this.player = new Storage('Player', {
     level: 1,
     skins: []
